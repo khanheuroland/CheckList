@@ -1,1 +1,26 @@
-# CheckList
+- [ ] Kiểm tra màn hình popup (giong design trong figma)
+- [ ] Kiểm tra ràng buộc dữ liệu trên trường Fullname với độ dài dữ liệu <12 ký tự
+- [ ] Kiểm tra ràng buộc dữ liệu trên trường Fullname với độ dài dữ liệu =12 ký tự
+- [ ] Kiểm tra ràng buộc dữ liệu trên trường Fullname với độ dài dữ liệu >12 ký tự
+- [ ] Kiểm tra hiển thị trường FullName (border đỏ, background vàng) khi nhập dữ liệu không đúng yêu cầu
+- [ ] Kiể tra focus được set vào fullname khi thực hiện đăng ký với nội dung FullName ko hợp lệ
+- [ ] Kiểm tra giá trị mặc định là "Không xác định" trên trường Gender
+- [ ] Kiểm tra giá trị mặc định là "Tất cả các loại tin" trên trường NewTypes
+- [ ] Kiểm tra hiển thị danh sách các item cho field News Type (Load from database)
+- [ ] Kiểm tra focus được set vào field FullName khi popup hiện liên
+- [ ] Kiểm tra chuyển focus khi thực hiện với phím tab trên bàn phím (desktop)
+- [ ] Kiểm tra thực hiện đăng ký khi nhấn Enter
+- [ ] Kiểm tra đóng popup extra form với Close button (x)
+- [ ] Kiểm tra đóng popup extra from với Escape keyboard button
+- [ ] Kiểm tra thông báo "Bạn đã đăng ký nhận bản tin thành công. Hãy kiểm tra Email để xác nhận việc đăng ký" hiển lên khi đăng ký thành công với thông tin hợp lệ
+- [ ] Kiêm tra email thông báo được gửi đến email đã đăng ký
+- [ ] Kiểm tra nội dung Email thông báo (title, content) được gửi đến Email người đã đăng ký
+- [ ] Kiểm tra link confirmation trong Email gửi đến người đăng ký 
+- [ ] Kiểm tra hiển thị kết quả từ link confirmation khi được mở bởi người đăng ký từ Email
+
+SYSTEM TEST 
+- [ ] Kiểm tra nhận bản tin từ người dùng đã đăng ký một loại tin trong hệ thống khi có bản tin tương ứng được gửi từ hệ thống 
+- [ ] Kiểm tra nhận tất cả các bản tin từ người dùng khi người dùng đăng ký nhân tin với news type là “Tất cả các loại tin”
+- [ ] Kiểm tra nhận bản tin từ người dùng có giới tính là nữ khi hệ thống có tin chỉ dành cho giới tính này được gửi đi 
+- [ ] Kiểm tra nhận bản tin từ người dùng có giới tính là Nam khi hệ thống có tin chỉ dành cho giới tính này được gửi đi 
+- [ ] Kiểm tra nhận bả tin từ người dùng khi có tin chỉ định cho giới tính kết hợp với một news type
